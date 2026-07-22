@@ -1,5 +1,165 @@
-<!-- Milk Chocolate -->
-<img src="https://images.pexels.com/photos/65882/chocolate-dark-coffee-confiserie-65882.jpeg" alt="Milk Chocolate">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delightful Chocolate</title>
 
-<!-- Chocolate Truffles -->
-<img src="https://images.pexels.com/photos/4110006/pexels-photo-4110006.jpeg" alt="Chocolate Truffles">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#fff8f0;
+}
+
+header{
+    background:#4E2A1E;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+.hero{
+    height:500px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1511381939415-e44015466834");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h2{
+    font-size:50px;
+}
+
+.hero p{
+    font-size:20px;
+    margin:20px;
+}
+
+.btn{
+    background:#8B4513;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.products{
+    padding:40px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+footer{
+    background:#4E2A1E;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🍫 Delightful Chocolate</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="products.html">Products</a>
+<a href="offers.html">Offers</a>
+<a href="contact.html">Contact</a>
+<a href="cart.html">Cart</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h2>Sweetness in Every Bite</h2>
+<p>Enjoy premium chocolates made with love and the finest ingredients.</p>
+<a href="products.html" class="btn">Shop Now</a>
+</div>
+</section>
+
+<section class="products">
+<h2>Our Best Chocolates</h2>
+<br>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b">
+<h3>Dark Chocolate</h3>
+<p>₹199</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c">
+<h3>Milk Chocolate</h3>
+<p>₹149</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476d">
+<h3>Chocolate Truffles</h3>
+<p>₹249</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Delightful Chocolate | Developed by Nandhini</p>
+</footer>
+
+</body>
+</html>
